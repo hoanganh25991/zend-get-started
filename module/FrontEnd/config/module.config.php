@@ -72,6 +72,16 @@ return array(
                 ),
             ),
             
+            "database" => array(
+                'type' => 'literal',
+                'options' => array(
+                    'route' => '/database',
+                    'defaults' => array(
+                        'controller' => 'FrontEnd\Controller\Index',
+                        'action' => 'database',
+                    ),
+                ),
+            )
         ),
     ),
     // ViewManager configuration
